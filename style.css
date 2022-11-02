@@ -62,7 +62,7 @@ color: #808080;
 .contact {
 padding: 9px 25px;
 border: none;
-background-color: rgba( 128, 128, 128,1 );
+background-color: rgba( 137, 207, 240,1 );
 border-radius: 50px;
 cursor: pointer;
 border-color: black;
@@ -72,7 +72,7 @@ bottom: 60px;
 }
 
 .contact:hover {
-    background-color: rgba( 128, 128, 128,0.8)
+    background-color: rgba( 137, 207, 240,0.8)
 }
 
 /*firstdiv*/
