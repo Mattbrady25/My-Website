@@ -83,16 +83,38 @@ bottom: 60px;
     padding-left: 78px;
     margin-top: 90px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
+    
 }
 
 .static {
     font-size: 30px;
+    max-width: 450px;
+    min-width: 312px;
+    
+}
+
+.static1 {
+    font-size: 30px;
+    position: relative;
     
 }
 
 .dynamic li {
     list-style: none;
     font-size: 30px;
+    position: relative;
+    margin: 0 15px;
     
+}
+
+.work {
+    position: relative;
+    margin-top: -50px;
+    background: transparent;
+    
+}
+
+.list {
+    display: flex;
 }
