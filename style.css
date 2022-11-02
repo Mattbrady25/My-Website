@@ -7,11 +7,11 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
-background-color: #F5F5DC;
 } 
 
 body {
     height:100%;
+    background-color: #F5F5DC;
 }
 
 
@@ -84,7 +84,9 @@ bottom: 40px;
     padding-top: 90px;
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: #89CFF0;
+    color: white;
+    height: 500px;
 
 }
 
@@ -116,7 +118,7 @@ bottom: 40px;
     font-size: 30px;
     position: relative;
     margin: 0 15px;
-    color: #89cff0;
+    color: black;
     top: 0;
     animation: slide 9s steps(3) infinite;
 }
@@ -144,9 +146,9 @@ bottom: 40px;
     position:absolute;
     left: 0;
     height: 100%;
-    background-color: #F5F5DC;
+    background-color: #89cff0;
     width: 100%;
-    border-left: 2px solid #89cff0;
+    border-left: 2px solid black;
     animation: typing 3s steps(7) infinite;
 }
 
