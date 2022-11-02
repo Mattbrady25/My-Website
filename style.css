@@ -100,21 +100,60 @@ bottom: 60px;
     
 }
 
+.list .dynamic {
+    line-height: 30px;
+    height: 30px;
+    overflow: hidden; 
+}
+
+
 .dynamic li {
     list-style: none;
     font-size: 30px;
     position: relative;
     margin: 0 15px;
-    
+    color: #89cff0;
+    top: 0;
+    animation: slide 9s steps(3) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -91px;
+    }
 }
 
 .work {
     position: relative;
-    margin-top: -50px;
+    margin-top: 10px;
     background: transparent;
-    
+    font-size: 25px;
 }
 
 .list {
     display: flex;
 }
+
+
+.dynamic li::after {
+    content:"";
+    position:absolute;
+    left: 0;
+    height: 100%;
+    background-color: #F5F5DC;
+    width: 100%;
+    border-left: 2px solid #89cff0;
+    animation: typing 3s steps(7) infinite;
+}
+
+@keyframes typing{
+    40%,
+    60% {
+        left: calc(100% + 30px);
+    }
+    100% {
+       left: 0; 
+    }
+}
+
+
