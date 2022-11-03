@@ -87,9 +87,8 @@ bottom: 40px;
     background-color: #89CFF0;
     color: white;
     height: 500px;
-
+   
 }
-
 
 
 .static {
@@ -163,11 +162,7 @@ bottom: 40px;
 }
 
 
-.aboutme {
+.biography {
     margin-top: 40px;
-}
-
-.technologies {
-    width: 55%;
-    
+    width: 600px;
 }
