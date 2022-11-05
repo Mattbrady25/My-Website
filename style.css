@@ -11,7 +11,7 @@ padding: 0;
 
 body {
     height:100%;
-    background-color: #F5F5DC;
+    background-color: white;
 }
 
 
@@ -170,16 +170,19 @@ bottom: 40px;
 
 /*projects */
 
+.projecttext {
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Anonymous Pro';
+    text-align: center;
+}
+
 .container2 {
     display: flex;
     height: 500px;
     font-family: 'Anonymous Pro'; 
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
-.projecttext {
-    font-size: 30px;
-    padding: 10px;
-}
 
