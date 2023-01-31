@@ -21,11 +21,11 @@ background-color: white;
     }
     
     
-    button {
+    .contact {
     font-family: 'Anonymous Pro';
     font-weight: 500;
     font-size: 16px;
-    color: black;
+    color: white;
     text-decoration: none;
     }
     
@@ -68,15 +68,49 @@ background-color: white;
     .contact {
     padding: 9px 25px;
     border: none;
-    background-color: rgba( 137, 207, 240,1 );
+    background-color: rgba( 0,0,0,1);
     border-radius: 50px;
     cursor: pointer;
     border-color: black;
     transition: all 0.3s ease 0s;
     position: relative;
     bottom: 40px;
+    
     }
     
     .contact:hover {
-        background-color: rgba( 137, 207, 240,0.8)
+        background-color: rgba( 0,0,0,0.8)
+    }
+
+    .picCon {
+        display: flex;
+        margin-top: 34px;
+        background-color: black;
+        width: 50%;
+        height: 400px;
+        align-items: center;
+        overflow-x: scroll;
+        text-overflow: ellipsis;
+        
+    }
+
+    .myPic {
+        height: 320px;
+        width: 240px;
+        position: relative;
+        left: 30px;
+        
+        
+    }
+
+    .descrp {
+        font-family: 'Anonymous Pro';
+        position: relative;
+        width: 300px;
+        display: block;
+        left: 70px;
+        color:white;
+        background-color: black;
+        overflow-x: scroll;
+        text-overflow: ellipsis;
     }
