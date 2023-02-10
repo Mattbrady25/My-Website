@@ -185,4 +185,11 @@ bottom: 40px;
     align-items: center;
 }
 
+/* tracker picture */
+
+.trackerpic {
+width: 300px;
+background-color: white;
+
+}
 
